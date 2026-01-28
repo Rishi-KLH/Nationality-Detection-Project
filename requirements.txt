@@ -1,0 +1,10 @@
+tensorflow
+opencv-python
+numpy
+pandas
+scikit-learn
+mtcnn
+deepface
+fer
+streamlit
+Pillow
