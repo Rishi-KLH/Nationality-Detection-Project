@@ -19,3 +19,11 @@ The aim of this project is to develop an AI model that predicts a person’s nat
 For this project, the FairFace dataset is used. FairFace is a large-scale face image dataset created to support research in demographic analysis. It contains face images labeled with attributes such as race/ethnicity, age group, and gender.
 
 In this project, the race labels from FairFace are used to classify nationality groups such as Indian, United States, African, and Other. The dataset provides separate training and validation folders along with CSV label files, which helps in building and evaluating the deep learning model effectively.
+
+#output commands
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+python train_nationality.py
+
